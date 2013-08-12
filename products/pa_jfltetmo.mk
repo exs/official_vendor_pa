@@ -34,8 +34,6 @@ include vendor/pa/config/pa_common.mk
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/samsung/jfltetmo/full_jfltetmo.mk)
-# Inherit some common CM stuff.
--include vendor/pa/config/gsm_old.mk
 
 # Include CM extras
 EXTRA_CM_PACKAGES ?= true
