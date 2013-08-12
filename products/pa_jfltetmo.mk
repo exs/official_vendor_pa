@@ -37,6 +37,9 @@ $(call inherit-product, device/samsung/jfltetmo/full_jfltetmo.mk)
 # Inherit some common CM stuff.
 -include vendor/pa/config/gsm_old.mk
 
+# Include CM extras
+EXTRA_CM_PACKAGES ?= true
+
 # Override AOSP build properties
 PRODUCT_NAME := pa_jfltetmo
 PRODUCT_DEVICE := jfltetmo
